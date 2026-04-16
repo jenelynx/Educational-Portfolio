@@ -4,8 +4,7 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:;"
+         "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https:; script-src 'self' https:; style-src 'self' https:;"
         },
         {
           "key": "X-Frame-Options",
